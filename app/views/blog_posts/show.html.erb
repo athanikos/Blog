@@ -1,0 +1,4 @@
+<% cache(@blog_post) do %>
+  <h1><%= @blog_post.title %></h1>
+  <p><%= simple_format(@blog_post.content) %></p>
+<% end %>
